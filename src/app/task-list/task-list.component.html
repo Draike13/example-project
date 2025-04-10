@@ -1,0 +1,9 @@
+@for (task of getTasks(); track $index) {
+<button
+  [class.strikethrough]="task.completed === true"
+  class="task-button"
+  (click)="completeTask(task)"
+>
+  {{ task.id }} {{ task.name }}
+</button>
+}

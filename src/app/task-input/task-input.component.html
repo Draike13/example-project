@@ -1,0 +1,5 @@
+<form (submit)="onSubmit($event)">
+  <label name="task">New Task</label>
+  <input name="task" type="text" #task />
+  <button (click)="submitNewTask(task.value)">Submit Task</button>
+</form>

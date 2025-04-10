@@ -1,0 +1,10 @@
+.task-button {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.task-button.strikethrough {
+  text-decoration: line-through;
+}
